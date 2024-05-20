@@ -1,3 +1,4 @@
 #!/usr/bin/env python3
-
-wrong_type = 'abc' + 123
+abc = '7'
+wrong_type = int(abc) + 123
+print(wrong_type)
